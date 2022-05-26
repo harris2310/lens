@@ -74,7 +74,7 @@
     "@react-stately/tree": "3.2.0",
     "@react-types/shared": "3.9.0",
     "@react-types/table": "3.0.0",
-    "@rollup/plugin-commonjs": "21.0.1",
+    "@rollup/plugin-commonjs": "22.0.0",
     "@rollup/plugin-node-resolve": "13.1.1",
     "@storybook/addon-a11y": "6.4.9",
     "@storybook/addon-docs": "6.4.9",
