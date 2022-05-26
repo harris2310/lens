@@ -39,7 +39,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "feather-icons": "4.28.0"
+    "feather-icons": "4.29.0"
   },
   "devDependencies": {
     "@react-aria/button": "3.3.4",
@@ -87,13 +87,13 @@
     "@types/react": "17.0.37",
     "@types/react-dom": "17.0.11",
     "@types/styled-components": "5.1.18",
-    "autoprefixer": "10.4.0",
+    "autoprefixer": "10.4.7",
     "chromatic": "6.2.1",
     "classnames": "2.3.1",
     "lodash-es": "4.17.21",
-    "postcss": "8.4.5",
+    "postcss": "8.4.14",
     "postcss-inline-base64": "6.2.1",
-    "prettier": "2.5.1",
+    "prettier": "2.6.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "rollup": "2.61.1",
