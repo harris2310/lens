@@ -154,7 +154,7 @@ function ComboBoxContainer<OptionKey extends Key = string>({
             {...hoverProps}
             ref={containerRef}
             className={cn(
-              "flex items-center w-full relative space-x-2",
+              "flex items-center w-full relative space-x-0",
               "rounded border border-gray-300 dark:border-gray-700",
               "px-3 py-2.5",
               "text-sm",
@@ -182,7 +182,7 @@ function ComboBoxContainer<OptionKey extends Key = string>({
               {...inputProps}
               aria-describedby={hintId}
               name={name}
-              className={cn("flex-1 min-w-0", "mr-4", {
+              className={cn("flex-1 min-w-0", "mr-0", {
                 "bg-white dark:bg-gray-900": !isDisabled,
                 "bg-gray-100 dark:bg-gray-800": isDisabled,
                 "text-gray-800 dark:text-gray-100": !isDisabled,
