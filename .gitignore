@@ -8,6 +8,7 @@ storybook-static
 # misc
 .DS_Store
 .env
+.history/
 
 package-lock.json
 npm-debug.log*

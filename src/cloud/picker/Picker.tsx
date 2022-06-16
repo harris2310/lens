@@ -111,7 +111,9 @@ const PickerContainer = ({
             }}
           >
             {state.selectedItem
-              ? state.selectedItem.rendered
+              ? state.selectedItem.hasChildNodes
+                ? state.selectedItem.textValue
+                : state.selectedItem.rendered
               : placeholder
               ? placeholder
               : "Select an option"}

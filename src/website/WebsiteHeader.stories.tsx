@@ -11,7 +11,7 @@ export default {
 const Template: Story = (args) => (
   // Explicitly wrap in LensProvider to make sure the correct styles are loaded. This is temporary.
   <LensProvider>
-    <WebsiteHeader {...args} />
+    <WebsiteHeader lightFont={true} {...args} />
   </LensProvider>
 )
 
